@@ -1,0 +1,78 @@
+.mid-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 818px;
+    // background-color: lawngreen;
+
+    p{
+        padding-top: 20px;
+        font-family: "Gill Sans Light";
+    }
+
+
+    input{
+        border: solid 1px #79ADDC;
+        height: 58px;
+        padding-left: 20px;
+        font-family: "Gill Sans Light";
+    }
+
+    .input-holder{
+        position: relative;
+
+.calendar{
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    width: 19px;
+    height: 19px;
+    background-image: url(../images/calendar.svg);
+    // background-color: blue;
+}
+
+    }
+
+    .long{
+        width: 698px;
+        height: 58px;
+        margin-left: 47px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mid-inputs{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+        p{
+            padding-top: 20px;
+            font-size: 32px;
+            font-family: "Gill Sans Light";
+        }
+
+        .long{
+            width: 500px;
+            margin-left: 0px;
+        }
+
+        input{
+            border: solid 1px #79ADDC;
+            height: 58px;
+            font-family: "Gill Sans Light";
+        }
+        
+
+
+    }
+}

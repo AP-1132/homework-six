@@ -1,0 +1,43 @@
+nav{
+    height: 90px;
+    min-width: 68%;
+    // background-color: aliceblue;
+    border-bottom: solid 2px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    // max-width: 1280px;
+    z-index: 99;
+
+
+    .logo{
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo-white.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-color: blue;
+    }
+
+    .links{
+        // background-color: aquamarine;
+        min-width: 48%;
+        display: flex;
+        justify-content: space-between;
+
+        .blue{
+            color: #79ADDC;
+        }
+
+
+        a{
+            text-decoration: none;
+            font-size: 15px;
+            font-family: "Gill Sans Regular";
+            color: #fff;
+        }
+    }
+
+}

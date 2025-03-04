@@ -1,0 +1,58 @@
+@use "variables" as v;
+
+.hero{
+    height: v.$hero-photo-height;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: burlywood;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+//     .photo{
+// width: 300px;
+// height: 300px;
+// background-color: aquamarine;
+//     }
+.home-title{
+    width: 416px;
+    height: 150px;
+    // background-color: blueviolet;
+    margin-top: 172px;
+    text-align: center;
+
+    h1{
+        font-size: 60px;
+        color: white;
+        font-family: "Proxima Nova EC Thin";
+    }
+
+    p{
+        font-size: 20px;
+        font-family: "Gill Sans Italic";
+        color: white;
+    }
+
+
+
+}
+
+.read-more{
+    width: 121px;
+    height: 40px;
+    background-color: #79ADDC;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    p{
+        padding: 10px;
+        font-size: 15px;
+        font-family: "Gill Sans Regular";
+    }
+}
+
+}

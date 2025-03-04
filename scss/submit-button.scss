@@ -1,0 +1,30 @@
+.submit-button{
+    max-width: 818px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 37px;
+    background-color: #79ADDC;
+    border-radius: 30px;
+
+    p{
+        margin: 0 auto;
+        text-align: center;
+        padding: 21px;
+        font-family: "Gill Sans Regular";
+        font-size: 15px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .submit-button{
+        // flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px;
+        max-width: 500px;
+        // padding-top: 20px;
+        // padding-bottom: 20px;
+
+    }
+}

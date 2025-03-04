@@ -1,0 +1,105 @@
+.day-one {
+  margin-top: 29px;
+  margin-bottom: 80px;
+  .day-header {
+    width: 158px;
+    height: 73px;
+    border-bottom: solid 2px #000;
+    margin-bottom: 35px;
+
+    p {
+      font-size: 60px;
+      color: #000;
+      font-family: "Proxima Nova EC Thin";
+    }
+  }
+
+  .day-caption {
+    min-height: 96px;
+    max-width: 980px;
+
+    p {
+      font-size: 16px;
+      color: #000;
+      font-family: "Gill Sans";
+    }
+  }
+}
+.day-two {
+  margin-top: 29px;
+  margin-bottom: 80px;
+  .day-header {
+    width: 158px;
+    height: 73px;
+    border-bottom: solid 2px #000;
+    margin-bottom: 35px;
+
+    p {
+      font-size: 60px;
+      color: #000;
+      font-family: "Proxima Nova EC Thin";
+    }
+  }
+
+  .day-caption {
+    min-height: 96px;
+    max-width: 980px;
+
+    p {
+      font-size: 16px;
+      color: #000;
+      font-family: "Gill Sans";
+    }
+  }
+}
+
+.day-three {
+  margin-top: 29px;
+  margin-bottom: 84px;
+  .day-header {
+    width: 158px;
+    height: 73px;
+    border-bottom: solid 2px #000;
+    margin-bottom: 35px;
+
+    p {
+      font-size: 60px;
+      color: #000;
+      font-family: "Proxima Nova EC Thin";
+    }
+  }
+
+  .day-caption {
+    min-height: 96px;
+    max-width: 980px;
+
+    p {
+      font-size: 16px;
+      color: #000;
+      font-family: "Gill Sans";
+    }
+  }
+}
+
+.package-book-button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  margin: 0 auto;
+  margin-top: 45px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+
+  p {
+    font-size: 15px;
+    font-family: "Gill Sans Regular";
+    color: white;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .days-holder {
+    padding: 30px 30px;
+  }
+}

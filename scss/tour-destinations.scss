@@ -1,0 +1,100 @@
+@use "variables" as v;
+
+.tour-destinations {
+  .photo-holder {
+    max-width: 818px;
+    min-height: v.$destination-height;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // background-color: red;
+
+    h1 {
+      font-size: 60px;
+      color: white;
+      font-family: "Proxima Nova EC Thin";
+    }
+
+    p {
+      font-size: 30px;
+      color: white;
+      font-family: "Proxima Nova EC Thin";
+    }
+
+    .israel {
+      width: v.$destination-width;
+      height: v.$destination-height;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour-01.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: green;
+    }
+
+    .usa {
+      width: v.$destination-width;
+      height: v.$destination-height;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour-02.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: green;
+    }
+
+    .aust {
+      width: v.$destination-width;
+      height: v.$destination-height;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour-03.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: green;
+    }
+
+    .destination-text {
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 47px;
+    }
+
+    .destination-button {
+      width: 133px;
+      height: 40px;
+      background-color: #79addc;
+      margin: 0 auto;
+      margin-top: 45px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 20px;
+
+      a {
+        text-decoration: none;
+        width: 133px;
+        height: 40px;
+      }
+
+      p {
+        font-size: 15px;
+        font-family: "Gill Sans Regular";
+        color: white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tour-destinations {
+    .photo-holder {
+      flex-direction: column;
+      align-items: center;
+      gap: 31px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}

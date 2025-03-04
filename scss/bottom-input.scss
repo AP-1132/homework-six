@@ -1,0 +1,36 @@
+.bottom-input{
+    width: 818px;
+    height: 192px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    .giant{
+        width: 818px;
+        height: 192px;
+    }
+
+    input{
+        border: solid 1px #79ADDC;
+        padding-left: 20px;
+        padding-bottom: 135px;
+        font-family: "Gill Sans Light";
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bottom-input{
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: space-between;
+        gap: 0px;
+        max-width: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        input{
+            max-width: 500px;
+        }
+
+
+    }
+}

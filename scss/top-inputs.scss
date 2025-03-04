@@ -1,0 +1,62 @@
+.top-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 818px;
+
+
+    input{
+        border: solid 1px #79ADDC;
+        height: 58px;
+        padding-left: 20px;
+        font-family: "Gill Sans Light";
+
+    }
+
+    .input-holder{
+        position: relative;
+
+.box{
+    position: absolute;
+    right: 10px;
+    bottom: 9px;
+    width: 40px;
+    height: 40px;
+    // background-color: blue;
+}
+
+    }
+
+    .small{
+        width: 344px;
+    }
+
+    .big{
+        width: 453px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .top-inputs{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+        .small{
+            min-width: 500px;
+        }
+    
+        .big{
+            min-width: 500px;
+        }
+        
+    }
+}

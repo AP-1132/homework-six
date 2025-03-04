@@ -1,0 +1,83 @@
+.mid-inputs-2{
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 818px;
+    // background-color: lawngreen;
+
+    p{
+        padding-top: 20px;
+        font-family: "Gill Sans Light";
+    }
+
+
+    input{
+        border: solid 1px #79ADDC;
+        height: 58px;
+        padding-left: 20px;
+        font-family: "Gill Sans Light";
+
+    }
+
+    .input-holder{
+        position: relative;
+
+.arrow{
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+    width: 20px;
+    height: 10px;
+    background-image: url(../images/down-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: blue;
+}
+
+    }
+
+    .small{
+        width: 103px;
+        height: 58px;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mid-inputs-2{
+        // flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px;
+        max-width: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+        p{
+            padding-top: 20px;
+            // font-size: 32px;
+            font-family: "Gill Sans Light";
+        }
+
+        .small{
+            width: 85px;
+            margin-left: 0px;
+        }
+
+        input{
+            border: solid 1px #79ADDC;
+            height: 58px;
+            font-family: "Gill Sans Light";
+        }
+        
+
+
+    }
+}
